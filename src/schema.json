@@ -31,6 +31,10 @@
           "ProviderName": {
             "type": "string",
             "pattern": "cognito-idp.(\\w+-\\w+-\\d+).amazonaws.com/(\\w+-\\w+-\\d+)_.*"
+          },
+          "ServerSideTokenCheck": {
+            "type": "string",
+            "enum": ["true", "false"]
           }
         }
       }
